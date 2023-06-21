@@ -1,4 +1,4 @@
-/*
+/* ------------------------------------------------
 Users table
 userID  name    email
 1       Sam     sam17@mail.com
@@ -8,7 +8,7 @@ userID  name    email
 SELECT name, email FROM users;
 SELECT userID, email FROM users;
 
-/*
+/* ------------------------------------------------
 movies table
 title           year    rating
 The Godfather   1972    9.2
@@ -18,7 +18,7 @@ Alien           1979    8.4
 SELECT title FROM movies;
 SELECT rating FROM movies;
 
-/*
+/* ------------------------------------------------
 stock table
 description s   m   l
 jeans       40  22  31
@@ -28,7 +28,7 @@ sweater     0   29  17
 SELECT description, s, m, l FROM stock;
 SELECT * FROM stock;
 
-/*
+/* ------------------------------------------------
 books table
 title                   author      genre
 Little Women            L.M. Alcott realism
@@ -37,7 +37,7 @@ The Raven               E.A. Poe    poetry
 */
 SELECT * FROM books;
 
-/*
+/* ------------------------------------------------
 subscribers table
 name    email               country
 Sam     sam17@mail.com      England
@@ -48,7 +48,7 @@ Kim     kim.z@mail.com      England
 SELECT country FROM subscribers;
 SELECT DISTINCT country FROM subscribers;
 
-/*
+/* ------------------------------------------------
 favorites table
 song            genre
 All Blues       jazz
